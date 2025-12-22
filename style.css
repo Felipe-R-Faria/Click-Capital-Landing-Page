@@ -123,6 +123,7 @@ header div nav ul li a:hover {
     font-size: 25px;
     font-family: var(--Font-Inter);
     gap: 10px;
+    padding-top: 65px;
 }
 
 .box1 #text h1 {
@@ -598,6 +599,8 @@ header div nav ul li a:hover {
 
 .box5{
     height: 30vh;
+    overflow: hidden;
+    background-color: ;
     
 }
 
@@ -610,18 +613,66 @@ header div nav ul li a:hover {
     padding-top: 20px;
 }
 .box5 #empresas{
-    border: 1px solid white;
+    border: 0px solid white;
     height: 80%;
     padding-top: 15px;
     display: flex;
     color: white;
+    text-align: center;
+    background-color:  ;
+   
+}
+
+.box5 #empresas .empresa4{
+    justify-content: center;
+    display: flex;
+}
+
+.box5 #empresas img{
+    
+}
+
+.empresa1 img{
+    
+    width: 230px;
+    text-align: center;
+}
+
+.empresa1 img:hover{
+    width: 230px;
+}
+
+.empresa2 img{
+    width: 350px;
+}
+
+.empresa3 img{
+    width: 240px;
+}
+
+.empresa4 img{
+    width: 350px;
 }
 
 .box5 #empresas div{
-    border: 1px solid whitesmoke;
-    width: 30rem;
+    border: 0px solid whitesmoke;
+    width: 29rem;
+    margin-left: 15px;
     height: 200px;
-    
+    border-radius: 15px;
+    transition: 0.57s ease;
+}
+
+.box5 #empresas div:hover{
+    transform: scale(0.9);
+    background-color:var(--cor-secundaria);
+    border-radius: 15px;
+    transition: 0.57s ease;
+}
+
+.box5 #empresas div .empresa1 img:hover{
+    transform: scale(1.0);
+    width: 230px;
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
