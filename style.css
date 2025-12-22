@@ -600,7 +600,7 @@ header div nav ul li a:hover {
 .box5{
     height: 30vh;
     overflow: hidden;
-    background-color: ;
+
     
 }
 
@@ -619,7 +619,6 @@ header div nav ul li a:hover {
     display: flex;
     color: white;
     text-align: center;
-    background-color:  ;
    
 }
 
@@ -628,9 +627,7 @@ header div nav ul li a:hover {
     display: flex;
 }
 
-.box5 #empresas img{
-    
-}
+
 
 .empresa1 img{
     
@@ -748,4 +745,170 @@ footer {
 .copyright p {
     font-size: 12px;
     color: #555;
+}
+
+
+
+/* Tablets 1024px */
+@media (max-width: 1024px) {
+    header div nav {
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    header div nav ul {
+        transform: translateX(0); 
+        gap: 15px;
+    }
+    
+    .box1 #text h1 { font-size: 2.5rem; }
+    
+    .box1 #botoes { gap: 2rem; }
+
+    .box3 .sobre-texto p {
+        width: 90%; 
+    }
+
+    #conteiner_box3 {
+        grid-template-columns: repeat(2, 1fr); 
+        height: auto; 
+    }
+}
+
+/* Celulares 768px */
+@media (max-width: 768px) {
+    
+    header div nav {
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    header div nav ul {
+        gap: 10px;
+        transform: translateY(-3.5rem);
+    }
+
+    header div nav ul li a {
+        font-size: 13px;
+    }
+
+    header div nav ul button {
+        display: none; 
+    }
+
+    
+    .box1 {
+        height: auto;
+        padding: 150px 20px 50px 20px;
+    }
+
+    .box1 #text h1 { font-size: 1.8rem; }
+
+    .box1 #botoes {
+        flex-direction: column; 
+        gap: 15px;
+        margin-top: 2rem;
+    }
+
+    .box1 #botoes button {
+        width: 100%;
+    }
+
+    .box1 #conteiners {
+        flex-direction: grid;
+        grid-template-columns: 1fr 1fr;
+        transform: translateY(3rem);
+        gap: 20px;
+    }
+
+    .box1 #conteiners div {
+        border-left: none;
+        border-bottom: 1px solid var(--cor-secundaria);
+        min-height: 80px;
+    }
+
+   
+    .box2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .box2 .sobre-texto {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .box2 .cards-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    
+    .box3 {
+        padding: 50px 20px;
+    }
+
+    .box3 .sobre-texto h1 { font-size: 35px; }
+
+    #conteiner_box3 {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .box3 .card {
+        margin: 10px 0;
+        height: auto;
+    }
+
+   
+    #conteiner_box4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-plano.destaque-card {
+        transform: scale(1); 
+        width: 100%;
+    }
+
+    
+    .box5 {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .box5 #empresas {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .box5 #empresas div {
+        width: 80%;
+        margin-left: 0;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box5 #empresas img {
+        max-width: 150px !important;
+        height: auto;
+    }
+
+    
+    #nav_rodape {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .menu-rodape {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
 }
