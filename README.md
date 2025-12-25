@@ -1,10 +1,10 @@
-# Nome do projeto
+# Click Capital
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
 
 <img src="imagem.png" alt="Exemplo imagem">
 
@@ -14,13 +14,21 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Ideia
+- [x] Esboço
+- [x] Codando o Esqueleto
+- [x] Substituindo as Informções
+- [ ] Revisar
+- [ ] Alterar em vista das regras
+- [ ] Testar
+- [ ] Melhorar(se preciso)
+- [ ] Subir
+- [ ] Entregar
 
-## 💻 Pré-requisitos
+## 💻 Sobre
+
+> [!NOTE]
+> Esse projeto é uma Landing Page para empresa Click Capital em vista de atingir grandes números de usuário, tendo sua estética moderna e minimalista com cores vibrantes e chamativas
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
