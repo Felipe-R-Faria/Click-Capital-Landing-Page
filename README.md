@@ -5,10 +5,11 @@
 ![GitHub forks](https://img.shields.io/github/forks/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
+<td align="center">
+  <img src="img_gitHub/click capital sem fundo2.png" alt="Exemplo imagem">
+</td>
 
-<img src="imagem.png" alt="Exemplo imagem">
-
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Click Capital é uma agência de marketing que disponibiliza tecnologias inovadoras para seu negócio.
 
 ### Ajustes e melhorias
 
