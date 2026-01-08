@@ -5,10 +5,11 @@
 ![GitHub forks](https://img.shields.io/github/forks/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Felipe-R-Faria/Click-Capital-Landing-Page?style=for-the-badge)
+<td align="center">
+  <img src="img_gitHub/click capital sem fundo2.png" alt="Exemplo imagem">
+</td>
 
-<img src="imagem.png" alt="Exemplo imagem">
-
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Click Capital é uma agência de marketing que disponibiliza tecnologias inovadoras para seu negócio.
 
 ### Ajustes e melhorias
 
@@ -52,21 +53,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="#" title="defina o título do link">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-## 😄 Seja um dos contribuidores
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
