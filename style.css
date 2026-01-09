@@ -8,7 +8,7 @@
 
 :root {
     --cor-primaria: #000000;
-    --cor-secundaria: #FFD700;
+    --cor-secundaria: #bca421;
 
     --Font-Inter: "Inter", sans-serif;
     --Font-SpaceGrotesk: "Space Grotesk", sans-serif;
@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: #131313;
+    background-color: #000000;
 }
 
 header div nav {
@@ -33,7 +33,7 @@ header div nav {
 }
 
 header div nav img{
-    width: 150px;
+    width: 30px;
     
 }
 
@@ -41,10 +41,12 @@ header div nav ul {
     display: flex;
     gap: 38px;
     list-style: none;
-    transform: translateX(58rem);
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     border: 0px solid;
-    height: 65px;
+    height: 45px;
     width: 800px;
     color: white;
     background-color: rgba(102, 100, 100, 0.582);
@@ -56,7 +58,7 @@ header div nav ul {
 
 header div nav ul button {
     transform: translateX(10%);
-    height: 50px;
+    height: 30px;
     border-radius: 23px;
     width: 150px;
     font-family: var(--Font-SpaceGrotesk);
@@ -80,7 +82,7 @@ header div nav ul button:hover {
 header div nav ul li a {
     color: whitesmoke;
     font-family: var(--Font-SpaceGrotesk);
-    font-size: 17px;
+    font-size: 14px;
     text-decoration: none;
     transition: 0.38s ease-in-out;
     padding-left: 24px;
@@ -214,7 +216,8 @@ header div nav ul li a:hover {
 
     gap: 10px;
     padding: 0;
-    transform: translateY(10rem);
+    margin-top: 6rem;
+    transform: none;
 }
 
 .box1 #conteiners div {
@@ -418,24 +421,25 @@ header div nav ul li a:hover {
 .box3 #conteiner_box3 h1{
     font-family: var(--Font-SpaceGrotesk);
     color: var(--cor-secundaria);
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .box3 #conteiner_box3 p{
     font-family: var(--Font-Inter);
     color: #fafafaaf;
-    padding-top: 20px;
+    padding-top: 15px;
     font-size: 15px;
 }
 
 .box3 .card {
     flex: 1;
     /* Faz os cards terem larguras iguais */
-    margin: 0 13px;
+    margin: 0 14px;
     /* Espaço entre os cards */
-    padding: 20px;
+    padding: 14px;
     text-align: justify;
-    height: 22rem;
+    min-height: 22rem;
+    height: auto;
     border-radius: 14px;
     background-color: #1a1a1a;
     box-shadow: 0px 0px 9px 0px #b6b6b65b;
@@ -454,7 +458,7 @@ header div nav ul li a:hover {
     width: 80px;
     height: 70px;
     border-radius: 17px;
-    background-color: #c9980636;
+    background-color: #635c4836;
 }
 
 .box3 .card div img {
@@ -636,7 +640,7 @@ header div nav ul li a:hover {
 
 .btn-plano:hover {
     background: #fff;
-    color: #000;
+    color: #fffcfc;
 }
 /*BOX_5----------------------------------------------------------------------------------------------------------*/
 
@@ -650,7 +654,7 @@ header div nav ul li a:hover {
 .box5 .titulo{
     color: whitesmoke;
     font-family: var(--Font-Inter);
-    font-size: 19px;
+    font-size: 9px;
     justify-content: center;
     display: flex;
     padding-top: 20px;
@@ -674,36 +678,35 @@ header div nav ul li a:hover {
 
 
 .empresa1 img{
-    
-    width: 230px;
+    width: 140px;
     text-align: center;
 }
 
 .empresa1 img{
-    width: 42%;
+    width: 32%;
     padding-top:2px ;
     
 }
 
 .empresa2 img{
-    width: 44%;
+    width: 140px
     
 }
 
 .empresa3 img{
-    width: 240px;
+    width: 140px;
     transform: translateY(20%);
 }
 
 .empresa4 img{
-    width: 350px;
+    width: 140px;
 }
 
 .box5 #empresas div{
     border: 0px solid whitesmoke;
-    width: 29rem;
+    width: 19rem;
     margin-left: 15px;
-    height: 200px;
+    height: 140px;
     border-radius: 15px;
     transition: 0.57s ease;
 }
@@ -717,7 +720,7 @@ header div nav ul li a:hover {
 
 .box5 #empresas div .empresa1 img:hover{
     transform: scale(1.0);
-    width: 230px;
+    width: 140px;
 }
 
 /*RODAPE-------------------------------------------------------------------------------------------------------------*/
@@ -827,7 +830,7 @@ footer {
 @media (max-width: 768px) {
     
     header div nav {
-        height: 100px;
+        height: 80px;
         flex-direction: column;
         justify-content: center;
         gap: 10px;
@@ -865,7 +868,7 @@ footer {
     }
 
     .box1 #conteiners {
-        flex-direction: grid;
+        display: grid;
         grid-template-columns: 1fr 1fr;
         transform: translateY(3rem);
         gap: 20px;
