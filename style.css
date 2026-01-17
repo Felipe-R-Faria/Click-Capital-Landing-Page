@@ -408,9 +408,9 @@ header div nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    width: 100%;
+    width: 98%;
     max-width: 1900px;
-    height: 50rem;
+    height: 100%;
     padding: 25px;
     overflow: hidden;
 
@@ -449,7 +449,7 @@ header div nav ul li a:hover {
 .box3 .card:hover {
     transform: scale(1.04);
     transition: 0.48s ease;
-    box-shadow: 0px 0px 10px 0px #b6b6b694;
+    box-shadow: 0px 0px 10px 0px #fae20e94;
 }
 
 .box3 .card div {
