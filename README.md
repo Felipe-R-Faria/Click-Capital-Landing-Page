@@ -19,7 +19,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Esboço
 - [x] Codando o Esqueleto
 - [x] Substituindo as Informções
-- [ ] Revisar
+- [x] Revisar
 - [ ] Alterar em vista das regras
 - [ ] Testar
 - [ ] Melhorar(se preciso)
