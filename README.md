@@ -20,11 +20,11 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Codando o Esqueleto
 - [x] Substituindo as Informções
 - [x] Revisar
-- [ ] Alterar em vista das regras
-- [ ] Testar
-- [ ] Melhorar(se preciso)
-- [ ] Subir
-- [ ] Entregar
+- [x] Alterar em vista das regras
+- [x] Testar
+- [x] Melhorar(se preciso)
+- [x] Subir
+- [x] Entregar
 
 ## 💻 Sobre
 
